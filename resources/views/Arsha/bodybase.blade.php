@@ -19,19 +19,19 @@
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="{{asset("arsha/assets/img/clients/client-3.png")}}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="{{asset("arsha/assets/img/clients/client-4.png")}}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="{{asset("arsha/assets/img/clients/client-5.png")}}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="{{asset("arsha/assets/img/clients/client-6.png")}}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -39,41 +39,10 @@
       </div>
     </section><!-- End Cliens Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About Us</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
+@include("Arsha.aboutus")
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
+  <!--  <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
@@ -128,6 +97,7 @@
     </section><!-- End Why Us Section -->
 
     <!-- ======= Skills Section ======= -->
+    <!--
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
@@ -181,6 +151,7 @@
     </section><!-- End Skills Section -->
 
     <!-- ======= Services Section ======= -->
+    <!--
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -228,6 +199,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
+    <!--
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
@@ -245,6 +217,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
+    <!--
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
@@ -358,6 +331,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
+    <!--
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -442,6 +416,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
+    <!--
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -503,6 +478,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
+    <!--
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -565,6 +541,7 @@
     </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
+    <!--
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -632,7 +609,8 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section> -->
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 @show
