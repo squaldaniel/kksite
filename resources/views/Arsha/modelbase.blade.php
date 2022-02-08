@@ -25,13 +25,10 @@
 </head>
 <body>
 @section("head")
-    @include("Arsha.headbase")
 @show
 @section("body")
-    @include("Arsha.bodybase")
 @show
 @section("footer")
-    @include("Arsha.footerbase")
 @show
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
