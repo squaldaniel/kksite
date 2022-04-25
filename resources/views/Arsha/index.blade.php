@@ -832,7 +832,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2239832178573418"
+     crossorigin="anonymous"></script>
 </body>
 
 </html>
